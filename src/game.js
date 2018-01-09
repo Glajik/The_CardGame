@@ -1,4 +1,4 @@
-import { cons, car, cdr, toString as pairToString } from 'hexlet-pairs'; // eslint-disable-line
+import { cons, car, cdr, toString as pairToString } from './pairs'; // eslint-disable-line
 import { cons as consList, l, random, head, reverse, toString as listToString } from 'hexlet-pairs-data'; // eslint-disable-line
 
 const run = (player1, player2, cards) => {

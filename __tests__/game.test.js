@@ -1,4 +1,4 @@
-import { cons, car, toString as pairToString } from 'hexlet-pairs'; // eslint-disable-line
+import { cons, car, toString as pairToString } from '../src/pairs'; // eslint-disable-line
 import { l, length, get } from 'hexlet-pairs-data'; // eslint-disable-line
 import make from '../game'; // eslint-disable-line
 
