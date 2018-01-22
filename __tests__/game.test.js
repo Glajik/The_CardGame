@@ -1,6 +1,7 @@
 import { cons, car, toString as pairToString } from '../src/pairs'; // eslint-disable-line
-import { l, length, get } from 'hexlet-pairs-data'; // eslint-disable-line
-import make from '../game'; // eslint-disable-line
+import { l } from '../src/pairs-data'; // eslint-disable-line
+import { random, reverse, length, get } from '../src/list';
+import make from '../src/game'; // eslint-disable-line
 
 describe('CardGame', () => {
   it('should work 1', () => {
