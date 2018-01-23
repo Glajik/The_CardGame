@@ -1,6 +1,6 @@
-import { cons, car, toString as pairToString } from '../src/pairs'; // eslint-disable-line
-import { l } from '../src/pairs-data'; // eslint-disable-line
-import { random, reverse, length, get } from '../src/list';
+import { cons, car, toString as pairToString } from '../sequences/pairs'; // eslint-disable-line
+import { l } from '../sequences/pairs-data'; // eslint-disable-line
+import { random, reverse, length, get } from '../sequences/list';
 import make from '../src/game'; // eslint-disable-line
 
 describe('CardGame', () => {

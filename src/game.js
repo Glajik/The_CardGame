@@ -1,6 +1,6 @@
-import { cons, car, cdr, toString as pairToString } from './pairs'; // eslint-disable-line
-import { cons as consList, l, head, toString as listToString } from './pairs-data'; // eslint-disable-line
-import { random, reverse } from './list';
+import { cons, car, cdr, toString as pairToString } from '../sequences/pairs'; // eslint-disable-line
+import { cons as consList, l, head, toString as listToString } from '../sequences/pairs-data'; // eslint-disable-line
+import { random, reverse } from '../sequences/list';
 
 const run = (player1, player2, cards) => {
   const iter = (health1, name1, health2, name2, order, log) => {
